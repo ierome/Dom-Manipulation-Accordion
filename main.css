@@ -1,0 +1,68 @@
+.container {
+    width: 500px;
+    margin: auto;
+}
+
+.sectionButton1,.sectionButton2,.sectionButton3 {
+    background-color: rgb(35,210,226);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 20px;
+    color: white;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .sectionButton1:hover {
+    background-color: rgb(32,195,210);
+  }
+  .active, .sectionButton2:hover {
+    background-color: rgb(32,195,210);
+  }
+  .active, .sectionButton3:hover {
+    background-color: rgb(32,195,210);
+  }
+  /* Style the accordion panel. Note: hidden by default */
+  .panel1 {
+    border: 1px solid rgb(35,210,226);
+    color: rgb(142, 150, 156);
+    background-color: white;
+  padding: 0 18px;
+  height: 0;
+  overflow: hidden;
+  transition: height 400ms ease;
+  }
+  .panel2 {
+    border: 1px solid rgb(35,210,226);
+    color: rgb(142, 150, 156);
+    background-color: white;
+  padding: 0 18px;
+  height: 0;
+  overflow: hidden;
+  transition: height 400ms ease;
+  }
+  .panel3 {
+    border: 1px solid rgb(35,210,226);
+    color: rgb(142, 150, 156);
+    background-color: white;
+  padding: 0 18px;
+  height: 0;
+  overflow: hidden;
+  transition: height 400ms ease;
+    }
+  
+.panel1.show {
+    height: 130px;
+}
+.panel2.show {
+    height: 130px;
+}
+.panel3.show {
+height: 130px;
+
+}

@@ -1,0 +1,76 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+* ::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+}
+.imageWrapper {
+    width: 1300px;
+    height: 740px;
+    position: relative;
+}
+
+.imageInsert1,.imageInsert0,.imageInsert2,.imageInsert3 {
+    position: absolute;
+}
+.imageShit0,.imageShit1,.imageShit2,.imageShit3 {
+    font-size: 20px;
+    font-family: "Futura";
+    color: white;
+    position: relative;
+    text-align: right;
+    top: -58px;
+    right: 1px;
+    padding-right: 10px;
+}
+.next {
+    position: absolute;
+    z-index: 99;
+    width: 150px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-size: 100px;
+    text-align: center;
+    line-height: 87px;
+    top: 307px;
+    right: 171px;
+}
+.prev {
+    position: absolute;
+    z-index: 99;
+    width: 150px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-size: 100px;
+    text-align: center;
+    line-height: 87px;
+    top: 308px;
+    right: 1280px;
+}
+.next:hover,.prev:hover {
+    -webkit-box-shadow: -5px 0px 44px 1px rgba(186,0,0,1);
+    -moz-box-shadow: -5px 0px 44px 1px rgba(186,0,0,1);
+    box-shadow: -5px 0px 44px 1px rgba(186,0,0,1);    
+}
+.imageInsert0.showPic.active {
+    z-index: 10;
+}
+.imageInsert1.showPic.active {
+    z-index: 10;
+}
+.imageInsert2.showPic.active {
+    z-index: 10;
+}
+.imageInsert3.showPic.active {
+    z-index: 10;
+}
